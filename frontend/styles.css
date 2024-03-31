@@ -1,0 +1,123 @@
+body {
+    margin: auto;
+    width: auto;
+    height: auto;
+    font-family: Arial, sans-serif; 
+    background: url('../frontend/image/googlecat.gif') no-repeat; 
+    align-items: center;
+    background-size: cover;
+  }
+  
+  /* Navigation Bar */
+  .Nav {
+    margin: auto;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    border-radius:20px;
+    align-items: center;
+    text-decoration: none;
+    backdrop-filter: blur(100px);
+    font-size: large;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline 2px solid #fff;
+  }
+
+  .nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+
+  .nav a:hover{
+    text-decoration: underline 2px solid #fff;
+  }
+
+  
+  /* Container */
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    backdrop-filter: blur(150px);
+    box-shadow: 0 0 10px whitesmoke;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  /* Headings */
+  h2 {
+    text-align: center;
+    background-color: #766092;
+    border-radius:10px;
+    border-radius: 200px; 
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 10px whitesmoke;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    padding: 2px;
+    width: 400px;
+    font-family: Arial, sans-serif;
+    
+  } 
+  
+ 
+  
+  /* Form Elements */
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Submit Button */
+  .button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Message */
+
+  .message.success {
+    color: #4caf50;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px; 
+  }
+  .message.danger {
+    color:#f44336;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px; 
+  }

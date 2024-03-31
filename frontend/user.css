@@ -1,0 +1,148 @@
+  body {
+    margin: auto;
+    width: auto;
+    height: auto;
+    background: url('../frontend/image/town.gif') no-repeat; 
+    align-items: center;
+    background-size: cover;
+  }
+  .Nav {
+    margin: auto;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    border-radius:20px;
+    align-items: center;
+    text-decoration: none;
+    backdrop-filter: blur(100px);
+    font-size: large;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline 2px solid #fff;
+  }
+  .nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: Arial, sans-serif;
+  }
+
+  .nav a:hover{
+    text-decoration: underline 2px solid #fff;
+  }
+  
+  .container {
+    justify-content: center; 
+    align-items: center;
+    
+  }
+
+  #user {
+    max-width: 95%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    background: transparent;
+    border: 2px solid #fff;
+    backdrop-filter: blur(3px);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #EFE5EE; 
+    font-family: Arial, sans-serif;   
+      
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #fbf8f8;
+    font-family: Arial, sans-serif;
+    color: #160202;
+}
+
+th {
+    background-color: #fffbfb;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.edit-button {
+    background-color: #ADD88D; /* Green */
+    border: none;
+    color: black;
+    font-family: Arial, sans-serif; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: auto;
+}
+
+.edit-button:hover {
+    background-color: #00ff0d;
+}
+
+.delete-button {
+    background-color: #a54141; /* Red */
+    border: none;
+    color: black;
+    font-family: Arial, sans-serif; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.delete-button:hover {
+    background-color: #cc4e4e;
+}
+
+.back-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;   
+}

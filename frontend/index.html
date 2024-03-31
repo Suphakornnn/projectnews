@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education Management System - Data Entry Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="Nav">
+    <a href="user.html" style="color: white;"> Go to Student Edit 📚</a>
+    <nav class="nav">
+      <a href="index.html" style="color: white">Home 🏠</a>
+    </nav>
+  </div>
+
+  <h2 style="color: white;">  Education Management System  </h2>
+
+  <div class="container">
+    <h3>ข้อมูลนักเรียน</h3>
+
+    <div class="student_name"> ชื่อ :</div>
+    <input type="text" class="student_name" name="student_name" required>
+
+    <div class="student_age"> อายุ :</div>
+    <input type="number" class="student_age" name="student_age" required>
+
+    <div class="student_address"> ที่อยู่ :</div>
+    <input type="text" class="student_address" name="student_address" required>
+    
+    <div class="education_level"> จำนวนคงเหลือ :</div>
+    <select class="education_level" name="education_level" required>
+      <option value="">เลือกระดับการศึกษา</option>
+      <option value="ประถมศึกษา">ประถมศึกษา</option>
+      <option value="มัธยมศึกษา">มัธยมศึกษา</option>
+      <option value="มหาวิทยาลัย">มหาวิทยาลัย</option>
+    </select>
+    
+    <h3> การเรียน </h3>
+
+    <div class="subject"> วิชาที่เรียน :</div>
+    <input type="text" class="study_subject" name="study_subject" required>
+
+    <div class="grade"> ผลการเรียน :</div>
+    <input type="text" class="study_grade" name="study_grade" required>
+
+    <div class="extra_activities"> กิจกรรมเสริมการเรียน :</div>
+    <input type="text" class="extra_learning_activities" name="extra_learning_activities" required>
+    
+    <h3>การสอน</h3>
+
+    <div class="teacher_name"> ชื่อครู/อาจารย์ :</div>
+    <input type="text" id="teacher_name" name="teacher_name" required>
+    
+    <div class="teaching_subject"> วิชาที่สอน :</div>
+    <input type="text" id="teaching_subject" name="teaching_subject" required>
+
+    <div class="class_time"> เวลาที่สอน :</div>
+    <input type="text" id="class_time" name="class_time" required>
+    
+    <div id="message" class="message"></div>
+
+    <br>
+
+    <button class="button" onclick="submitData()"> SUBMIT⛄</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
